@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claude//Lembrete Vivara//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vivara-joia-20260625@claude
+DTSTAMP:20260620T120000Z
+DTSTART;TZID=America/Sao_Paulo:20260625T090000
+DTEND;TZID=America/Sao_Paulo:20260625T093000
+SUMMARY:💍 Comprar joia na Vivara (cartão libera)
+DESCRIPTION:Lembrete para finalizar a compra no carrinho da Vivara: https://www.vivara.com.br/checkout#/cart
+URL:https://www.vivara.com.br/checkout#/cart
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comprar joia na Vivara
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comprar joia na Vivara
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
